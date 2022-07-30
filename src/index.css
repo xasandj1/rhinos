@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+@import '@splidejs/react-splide/css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --black: #000;
+  --lightBlack: #212121;
+  --yellow: #b69860;
+  --white: #fff;
+  --yellowDark: #9b8f5e;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  background: #000;
+}
+
+*::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: var(--yellow);
+}
+
+::selection {
+  color: var(--black);
+  background: var(--yellow);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+  color: #d8b676ee;
+}
+
+.bg {
+  background: linear-gradient(180deg, #8C8156 0%, #212121 26.91%);
+}
